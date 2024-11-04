@@ -6,7 +6,7 @@ async function hello() {
   console.log("response.data >", JSON.stringify(response.data));
   console.log("hello world!");
 }
-hello();
+// hello();
 
 export const handler: Handler = async () => {
   return await hello();
